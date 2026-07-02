@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use App\Models\User;
-use Workdo\Documents\Events\StatusChangeDocument;
+use Zerp\Documents\Events\StatusChangeDocument;
 use Zerp\Telegram\Services\SendMsg;
 
 class StatusChangeDocumentLis

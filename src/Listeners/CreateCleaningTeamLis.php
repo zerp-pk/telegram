@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\CleaningManagement\Events\CreateCleaningTeam;
+use Zerp\CleaningManagement\Events\CreateCleaningTeam;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateCleaningTeamLis

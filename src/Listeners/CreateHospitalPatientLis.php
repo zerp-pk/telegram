@@ -4,7 +4,7 @@ namespace Zerp\Telegram\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\HospitalManagement\Events\CreateHospitalPatient;
+use Zerp\HospitalManagement\Events\CreateHospitalPatient;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateHospitalPatientLis

@@ -2,10 +2,10 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAudit;
-use Workdo\FixEquipment\Models\FixEquipmentAsset;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAudit;
+use Zerp\FixEquipment\Models\FixEquipmentAsset;
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\FixEquipment\Models\FixEquipmentAudit;
+use Zerp\FixEquipment\Models\FixEquipmentAudit;
 
 class CreateFixEquipmentAuditLis
 {

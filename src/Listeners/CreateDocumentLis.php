@@ -5,7 +5,7 @@ namespace Zerp\Telegram\Listeners;
 use App\Models\User;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\Documents\Events\CreateDocument;
+use Zerp\Documents\Events\CreateDocument;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateDocumentLis

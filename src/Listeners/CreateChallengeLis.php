@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\InnovationCenter\Events\CreateChallenge;
+use Zerp\InnovationCenter\Events\CreateChallenge;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateChallengeLis

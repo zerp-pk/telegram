@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use App\Models\User;
-use Workdo\CleaningManagement\Events\CreateCleaningBooking;
+use Zerp\CleaningManagement\Events\CreateCleaningBooking;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateCleaningBookingLis

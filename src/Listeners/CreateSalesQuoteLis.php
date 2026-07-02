@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\Sales\Events\CreateSalesQuote;
+use Zerp\Sales\Events\CreateSalesQuote;
 
 
 class CreateSalesQuoteLis

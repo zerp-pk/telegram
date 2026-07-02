@@ -5,7 +5,7 @@ namespace Zerp\Telegram\Listeners;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\ToDo\Events\CreateToDo;
+use Zerp\ToDo\Events\CreateToDo;
 
 class CreateToDoLis
 {

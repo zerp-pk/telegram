@@ -2,8 +2,8 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\Feedback\Events\CreateTemplate;
-use Workdo\Feedback\Models\TemplateModule;
+use Zerp\Feedback\Events\CreateTemplate;
+use Zerp\Feedback\Models\TemplateModule;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateTemplateLis

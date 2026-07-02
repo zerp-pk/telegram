@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\Appointment\Events\AppointmentStatus;
+use Zerp\Appointment\Events\AppointmentStatus;
 
 class AppointmentStatusLis
 {

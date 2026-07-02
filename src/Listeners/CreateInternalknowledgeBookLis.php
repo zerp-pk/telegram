@@ -5,7 +5,7 @@ namespace Zerp\Telegram\Listeners;
 use App\Models\User;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeBook;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeBook;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateInternalknowledgeBookLis

@@ -3,8 +3,8 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\CMMS\Events\CreateWorkRequest;
-use Workdo\CMMS\Models\CmmsComponent;
+use Zerp\CMMS\Events\CreateWorkRequest;
+use Zerp\CMMS\Models\CmmsComponent;
 
 class CreateWorkRequestLis
 {

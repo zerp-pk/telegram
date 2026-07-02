@@ -2,9 +2,9 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\CMMS\Events\CreateCmmsPos;
+use Zerp\CMMS\Events\CreateCmmsPos;
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\CMMS\Events\CreateSupplier;
+use Zerp\CMMS\Events\CreateSupplier;
 
 
 class CreateCmmsPosLis

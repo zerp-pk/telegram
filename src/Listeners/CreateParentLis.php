@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\School\Events\CreateParent;
+use Zerp\School\Events\CreateParent;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateParentLis

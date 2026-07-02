@@ -4,7 +4,7 @@ namespace Zerp\Telegram\Listeners;
 
 use App\Models\User;
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\ToDo\Events\CompleteToDo;
+use Zerp\ToDo\Events\CompleteToDo;
 
 class CompleteToDoLis
 {

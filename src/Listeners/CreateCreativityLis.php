@@ -4,7 +4,7 @@ namespace Zerp\Telegram\Listeners;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
-use Workdo\InnovationCenter\Events\CreateCreativity;
+use Zerp\InnovationCenter\Events\CreateCreativity;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateCreativityLis

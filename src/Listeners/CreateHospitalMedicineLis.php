@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\HospitalManagement\Events\CreateHospitalMedicine;
+use Zerp\HospitalManagement\Events\CreateHospitalMedicine;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateHospitalMedicineLis

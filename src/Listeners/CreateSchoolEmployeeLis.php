@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\School\Events\CreateEmployee;
+use Zerp\School\Events\CreateEmployee;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateSchoolEmployeeLis

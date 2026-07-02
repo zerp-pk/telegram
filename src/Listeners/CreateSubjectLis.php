@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\School\Events\CreateSubject;
+use Zerp\School\Events\CreateSubject;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateSubjectLis

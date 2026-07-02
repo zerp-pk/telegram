@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentLocation;
+use Zerp\FixEquipment\Events\CreateFixEquipmentLocation;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateFixEquipmentLocationLis

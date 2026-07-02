@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\Appointment\Events\CreateSchedule;
+use Zerp\Appointment\Events\CreateSchedule;
 use Zerp\Telegram\Services\SendMsg;
 
 

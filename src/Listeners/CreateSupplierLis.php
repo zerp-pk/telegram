@@ -4,7 +4,7 @@ namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
 use App\Models\User;
-use Workdo\CMMS\Events\CreateSupplier;
+use Zerp\CMMS\Events\CreateSupplier;
 
 
 class CreateSupplierLis

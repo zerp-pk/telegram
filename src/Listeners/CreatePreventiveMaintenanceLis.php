@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\CMMS\Events\CreatePreventiveMaintenance;
+use Zerp\CMMS\Events\CreatePreventiveMaintenance;
 use Zerp\ProductService\Models\ProductServiceItem;
 
 class CreatePreventiveMaintenanceLis

@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\VisitorManagement\Events\CreateVisitor;
+use Zerp\VisitorManagement\Events\CreateVisitor;
 
 class CreateVisitorLis
 {

@@ -2,8 +2,8 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\MachineRepairManagement\Events\CreateMachineRepairRequest;
-use Workdo\MachineRepairManagement\Models\Machine;
+use Zerp\MachineRepairManagement\Events\CreateMachineRepairRequest;
+use Zerp\MachineRepairManagement\Models\Machine;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateMachineRepairRequestLis

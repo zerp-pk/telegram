@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\School\Events\CreateHomework;
+use Zerp\School\Events\CreateHomework;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateHomeworkLis

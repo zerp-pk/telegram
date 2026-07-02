@@ -3,8 +3,8 @@
 namespace Zerp\Telegram\Listeners;
 
 use App\Models\User;
-use Workdo\FixEquipment\Events\CreateFixEquipmentAsset;
-use Workdo\FixEquipment\Models\FixEquipmentLocation;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAsset;
+use Zerp\FixEquipment\Models\FixEquipmentLocation;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateFixEquipmentAssetLis

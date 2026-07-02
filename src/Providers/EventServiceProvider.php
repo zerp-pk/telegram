@@ -10,31 +10,31 @@ use Zerp\Telegram\Listeners\CreateUserLis;
 use App\Events\CreatePurchaseInvoice;
 use Zerp\Telegram\Listeners\CreatePurchaseInvoiceLis;
 
-use Workdo\Appointment\Events\AppointmentStatus;
+use Zerp\Appointment\Events\AppointmentStatus;
 use Zerp\Telegram\Listeners\AppointmentStatusLis;
 
-use Workdo\Appointment\Events\CreateSchedule;
+use Zerp\Appointment\Events\CreateSchedule;
 use Zerp\Telegram\Listeners\CreateScheduleLis;
 
-use Workdo\CMMS\Events\CreateComponent;
+use Zerp\CMMS\Events\CreateComponent;
 use Zerp\Telegram\Listeners\CreateComponentLis;
 
-use Workdo\CMMS\Events\CreateLocation;
+use Zerp\CMMS\Events\CreateLocation;
 use Zerp\Telegram\Listeners\CreateLocationLis;
 
-use Workdo\CMMS\Events\CreateSupplier;
+use Zerp\CMMS\Events\CreateSupplier;
 use Zerp\Telegram\Listeners\CreateSupplierLis;
 
-use Workdo\CMMS\Events\CreatePreventiveMaintenance;
+use Zerp\CMMS\Events\CreatePreventiveMaintenance;
 use Zerp\Telegram\Listeners\CreatePreventiveMaintenanceLis;
 
-use Workdo\CMMS\Events\CreateCmmsPos;
+use Zerp\CMMS\Events\CreateCmmsPos;
 use Zerp\Telegram\Listeners\CreateCmmsPosLis;
 
-use Workdo\CMMS\Events\CreateWorkOrder;
+use Zerp\CMMS\Events\CreateWorkOrder;
 use Zerp\Telegram\Listeners\CreateWorkorderLis;
 
-use Workdo\CMMS\Events\CreateWorkRequest;
+use Zerp\CMMS\Events\CreateWorkRequest;
 use Zerp\Telegram\Listeners\CreateWorkRequestLis;
 
 use Zerp\Contract\Events\CreateContract;
@@ -55,10 +55,10 @@ use Zerp\Telegram\Listeners\LeadMovedLis;
 use Zerp\Lead\Events\DealMoved;
 use Zerp\Telegram\Listeners\DealMovedLis;
 
-use Workdo\Sales\Events\CreateSalesQuote;
+use Zerp\Sales\Events\CreateSalesQuote;
 use Zerp\Telegram\Listeners\CreateSalesQuoteLis;
 
-use Workdo\Sales\Events\CreateSalesOrder;
+use Zerp\Sales\Events\CreateSalesOrder;
 use Zerp\Telegram\Listeners\CreateSalesOrderLis;
 
 use App\Events\CreateSalesInvoice;
@@ -88,7 +88,7 @@ use Zerp\Telegram\Listeners\CreateRevenueLis;
 use Zerp\Account\Events\CreateVendor;
 use Zerp\Telegram\Listeners\CreateVendorLis;
 
-use Workdo\Sales\Events\CreateSalesMeeting;
+use Zerp\Sales\Events\CreateSalesMeeting;
 use Zerp\Telegram\Listeners\CreateSalesMeetingLis;
 
 use Zerp\Taskly\Events\CreateProject;
@@ -112,121 +112,121 @@ use Zerp\Telegram\Listeners\CreateTaskCommentLis;
 use Zerp\ZoomMeeting\Events\CreateZoomMeeting;
 use Zerp\Telegram\Listeners\CreateZoommeetingLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAccessory;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAccessory;
 use Zerp\Telegram\Listeners\CreateFixEquipmentAccessoryLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAsset;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAsset;
 use Zerp\Telegram\Listeners\CreateFixEquipmentAssetLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentAudit;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAudit;
 use Zerp\Telegram\Listeners\CreateFixEquipmentAuditLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentComponent;
+use Zerp\FixEquipment\Events\CreateFixEquipmentComponent;
 use Zerp\Telegram\Listeners\CreateFixEquipmentComponentLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentConsumable;
+use Zerp\FixEquipment\Events\CreateFixEquipmentConsumable;
 use Zerp\Telegram\Listeners\CreateFixEquipmentConsumableLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentLicense;
+use Zerp\FixEquipment\Events\CreateFixEquipmentLicense;
 use Zerp\Telegram\Listeners\CreateFixEquipmentLicenseLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentLocation;
+use Zerp\FixEquipment\Events\CreateFixEquipmentLocation;
 use Zerp\Telegram\Listeners\CreateFixEquipmentLocationLis;
 
-use Workdo\FixEquipment\Events\CreateFixEquipmentMaintenance;
+use Zerp\FixEquipment\Events\CreateFixEquipmentMaintenance;
 use Zerp\Telegram\Listeners\CreateFixEquipmentMaintenanceLis;
 
-use Workdo\Feedback\Events\CreateHistory;
+use Zerp\Feedback\Events\CreateHistory;
 use Zerp\Telegram\Listeners\CreateHistoryLis;
 
-use Workdo\Feedback\Events\CreateTemplate;
+use Zerp\Feedback\Events\CreateTemplate;
 use Zerp\Telegram\Listeners\CreateTemplateLis;
 
-use Workdo\VisitorManagement\Events\CreateVisitor;
+use Zerp\VisitorManagement\Events\CreateVisitor;
 use Zerp\Telegram\Listeners\CreateVisitorLis;
 
-use Workdo\VisitorManagement\Events\CreateVisitPurpose;
+use Zerp\VisitorManagement\Events\CreateVisitPurpose;
 use Zerp\Telegram\Listeners\CreateVisitPurposeLis;
 
-use Workdo\School\Events\CreateEmployee;
+use Zerp\School\Events\CreateEmployee;
 use Zerp\Telegram\Listeners\CreateSchoolEmployeeLis;
 
-use Workdo\School\Events\CreateAdmission;
+use Zerp\School\Events\CreateAdmission;
 use Zerp\Telegram\Listeners\CreateAdmissionLis;
 
-use Workdo\School\Events\CreateParent;
+use Zerp\School\Events\CreateParent;
 use Zerp\Telegram\Listeners\CreateParentLis;
 
-use Workdo\School\Events\CreateStudent;
+use Zerp\School\Events\CreateStudent;
 use Zerp\Telegram\Listeners\CreateSchoolStudentLis;
 
-use Workdo\School\Events\CreateHomework;
+use Zerp\School\Events\CreateHomework;
 use Zerp\Telegram\Listeners\CreateHomeworkLis;
 
-use Workdo\School\Events\CreateSubject;
+use Zerp\School\Events\CreateSubject;
 use Zerp\Telegram\Listeners\CreateSubjectLis;
 
-use Workdo\School\Events\CreateClassTimetable;
+use Zerp\School\Events\CreateClassTimetable;
 use Zerp\Telegram\Listeners\CreateClassTimetableLis;
 
-use Workdo\CleaningManagement\Events\CreateCleaningTeam;
+use Zerp\CleaningManagement\Events\CreateCleaningTeam;
 use Zerp\Telegram\Listeners\CreateCleaningTeamLis;
 
 use Zerp\Telegram\Listeners\CreateCleaningBookingLis;
-use Workdo\CleaningManagement\Events\CreateCleaningBooking;
+use Zerp\CleaningManagement\Events\CreateCleaningBooking;
 
-use Workdo\CleaningManagement\Events\CreateCleaningInvoice;
+use Zerp\CleaningManagement\Events\CreateCleaningInvoice;
 use Zerp\Telegram\Listeners\CreateCleaningInvoiceLis;
 
-use Workdo\MachineRepairManagement\Events\CreateMachine;
-use Workdo\MachineRepairManagement\Events\CreateMachineRepairRequest;
+use Zerp\MachineRepairManagement\Events\CreateMachine;
+use Zerp\MachineRepairManagement\Events\CreateMachineRepairRequest;
 
 use Zerp\Telegram\Listeners\CreateMachineLis;
 use Zerp\Telegram\Listeners\CreateMachineRepairRequestLis;
 
-use Workdo\HospitalManagement\Events\CreateHospitalDoctor;
+use Zerp\HospitalManagement\Events\CreateHospitalDoctor;
 use Zerp\Telegram\Listeners\CreateHospitalDoctorLis;
 
-use Workdo\HospitalManagement\Events\CreateHospitalMedicine;
+use Zerp\HospitalManagement\Events\CreateHospitalMedicine;
 use Zerp\Telegram\Listeners\CreateHospitalMedicineLis;
 
-use Workdo\HospitalManagement\Events\CreateHospitalPatient;
+use Zerp\HospitalManagement\Events\CreateHospitalPatient;
 use Zerp\Telegram\Listeners\CreateHospitalPatientLis;
 
-use Workdo\HospitalManagement\Events\CreateHospitalAppointment;
+use Zerp\HospitalManagement\Events\CreateHospitalAppointment;
 use Zerp\Telegram\Listeners\CreateHospitalAppointmentLis;
 
 use Zerp\Timesheet\Events\CreateTimesheet;
 use Zerp\Telegram\Listeners\CreateTimesheetLis;
 
-use Workdo\Notes\Events\CreateNote;
+use Zerp\Notes\Events\CreateNote;
 use Zerp\Telegram\Listeners\CreateNoteLis;
 
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeBook;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeBook;
 use Zerp\Telegram\Listeners\CreateInternalknowledgeBookLis;
 
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeArticle;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeArticle;
 use Zerp\Telegram\Listeners\CreateInternalknowledgeArticleLis;
 
-use Workdo\InnovationCenter\Events\CreateCreativity;
+use Zerp\InnovationCenter\Events\CreateCreativity;
 use Zerp\Telegram\Listeners\CreateCreativityLis;
 
-use Workdo\InnovationCenter\Events\CreateChallenge;
+use Zerp\InnovationCenter\Events\CreateChallenge;
 use Zerp\Telegram\Listeners\CreateChallengeLis;
 
-use Workdo\InnovationCenter\Events\CreateCategory;
+use Zerp\InnovationCenter\Events\CreateCategory;
 use Zerp\Telegram\Listeners\CreateCategoryLis;
 
-use Workdo\ToDo\Events\CreateToDo;
+use Zerp\ToDo\Events\CreateToDo;
 use Zerp\Telegram\Listeners\CreateToDoLis;
 
-use Workdo\ToDo\Events\CompleteToDo;
+use Zerp\ToDo\Events\CompleteToDo;
 use Zerp\Telegram\Listeners\CompleteToDoLis;
 
-use Workdo\Documents\Events\CreateDocument;
+use Zerp\Documents\Events\CreateDocument;
 use Zerp\Telegram\Listeners\CreateDocumentLis;
 
-use Workdo\Documents\Events\StatusChangeDocument;
+use Zerp\Documents\Events\StatusChangeDocument;
 use Zerp\Telegram\Listeners\StatusChangeDocumentLis;
 
 use Zerp\Hrm\Events\CreateAnnouncement;
@@ -250,7 +250,7 @@ use Zerp\Telegram\Listeners\UpdateLeaveStatusLis;
 use Zerp\Taskly\Events\UpdateTaskStage;
 use Zerp\Telegram\Listeners\UpdateTaskStageLis;
 
-use Workdo\WordpressWoocommerce\Events\CreateWoocommerceProduct;
+use Zerp\WordpressWoocommerce\Events\CreateWoocommerceProduct;
 use Zerp\Telegram\Listeners\CreateWoocommerceProductLis;
 
 class EventServiceProvider extends ServiceProvider

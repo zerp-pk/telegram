@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\WordpressWoocommerce\Events\CreateWoocommerceProduct;
+use Zerp\WordpressWoocommerce\Events\CreateWoocommerceProduct;
 
 class CreateWoocommerceProductLis
 {

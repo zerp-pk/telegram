@@ -1,6 +1,6 @@
 {
     "name": "zerp/telegram",
-    "description": "Description for telegram package",
+    "description": "Telegram notification integration module for the Zerp ERP platform",
     "type": "library",
     "license": "MIT",
     "require": {},

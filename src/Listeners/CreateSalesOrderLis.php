@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\Sales\Events\CreateSalesOrder;
+use Zerp\Sales\Events\CreateSalesOrder;
 
 
 class CreateSalesOrderLis

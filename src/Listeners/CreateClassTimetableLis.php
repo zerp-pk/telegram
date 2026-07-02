@@ -2,8 +2,8 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\School\Events\CreateClassTimetable;
-use Workdo\School\Models\SchoolClass;
+use Zerp\School\Events\CreateClassTimetable;
+use Zerp\School\Models\SchoolClass;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateClassTimetableLis

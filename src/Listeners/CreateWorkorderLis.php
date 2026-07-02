@@ -4,7 +4,7 @@ namespace Zerp\Telegram\Listeners;
 
 use App\Models\User;
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\CMMS\Events\CreateWorkorder;
+use Zerp\CMMS\Events\CreateWorkorder;
 
 class CreateWorkorderLis
 {

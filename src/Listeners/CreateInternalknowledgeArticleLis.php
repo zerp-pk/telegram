@@ -2,8 +2,8 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\Internalknowledge\Events\CreateInternalknowledgeArticle;
-use Workdo\Internalknowledge\Models\InternalknowledgeBook;
+use Zerp\Internalknowledge\Events\CreateInternalknowledgeArticle;
+use Zerp\Internalknowledge\Models\InternalknowledgeBook;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateInternalknowledgeArticleLis

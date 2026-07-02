@@ -18,7 +18,7 @@ class MarketplaceSettingSeeder extends Seeder
             $files = File::files($marketplaceDir);
             foreach ($files as $file) {
                 if (in_array($file->getExtension(), ['png', 'jpg', 'jpeg', 'gif', 'webp'])) {
-                    $screenshots[] = '/packages/workdo/Telegram/src/marketplace/' . $file->getFilename();
+                    $screenshots[] = '/packages/local/Telegram/src/marketplace/' . $file->getFilename();
                 }
             }
         }
@@ -55,19 +55,19 @@ class MarketplaceSettingSeeder extends Seeder
                                 'title' => 'Telegram Bot Configuration & Management',
                                 'description' => 'Set up and manage powerful Telegram bots with secure token authentication and automated configuration processes. Create custom bots for different business functions with comprehensive settings management, webhook configuration, and secure API integration for reliable messaging automation across your organization.',
                                 'keyPoints' => ['Secure bot token management and authentication system', 'Automated bot configuration with webhook integration', 'Custom bot creation for different business functions', 'Comprehensive API integration and security protocols'],
-                                'screenshot' => '/packages/workdo/Telegram/src/marketplace/image1.png'
+                                'screenshot' => '/packages/local/Telegram/src/marketplace/image1.png'
                             ],
                             [
                                 'title' => 'Automated Messaging & Notifications',
                                 'description' => 'Deploy intelligent automated messaging systems with real-time notifications, scheduled messages, and event-triggered communications. Configure smart notification routing to specific channels and users while maintaining message formatting, media attachments, and delivery confirmation for critical business communications.',
                                 'keyPoints' => ['Real-time automated notification system with smart routing', 'Scheduled messaging and event-triggered communications', 'Rich message formatting with media attachment support', 'Delivery confirmation and message status tracking'],
-                                'screenshot' => '/packages/workdo/Telegram/src/marketplace/image2.png'
+                                'screenshot' => '/packages/local/Telegram/src/marketplace/image2.png'
                             ],
                             [
                                 'title' => 'Channel Management & Team Communication',
                                 'description' => 'Organize team communication through sophisticated channel management with group creation, member administration, and role-based access controls. Enable secure group messaging, broadcast channels, and private communications while maintaining comprehensive message history and administrative oversight for enhanced team collaboration.',
                                 'keyPoints' => ['Advanced channel and group management with role-based access', 'Secure group messaging and broadcast channel capabilities', 'Member administration and permission management system', 'Comprehensive message history and administrative oversight'],
-                                'screenshot' => '/packages/workdo/Telegram/src/marketplace/image3.png'
+                                'screenshot' => '/packages/local/Telegram/src/marketplace/image3.png'
                             ]
                         ]
                     ],

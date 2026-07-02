@@ -2,7 +2,7 @@
 
 namespace Zerp\Telegram\Listeners;
 
-use Workdo\School\Events\CreateAdmission;
+use Zerp\School\Events\CreateAdmission;
 use Zerp\Telegram\Services\SendMsg;
 
 class CreateAdmissionLis

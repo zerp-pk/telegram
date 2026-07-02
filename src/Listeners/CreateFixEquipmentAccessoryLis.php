@@ -3,7 +3,7 @@
 namespace Zerp\Telegram\Listeners;
 
 use Zerp\Telegram\Services\SendMsg;
-use Workdo\FixEquipment\Events\CreateFixEquipmentAccessory;
+use Zerp\FixEquipment\Events\CreateFixEquipmentAccessory;
 use App\Models\User;
 
 class CreateFixEquipmentAccessoryLis
