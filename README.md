@@ -13,13 +13,13 @@ Telegram module for the [Zerp](https://github.com/zerp-pk) ERP platform. Telegra
 composer require zerp/telegram
 ```
 
-The package auto-registers via Laravel's package discovery — no manual service provider registration needed.
+The package auto-registers via Laravel's package discovery - no manual service provider registration needed.
 
 ## What it provides
 
-- `Zerp\Telegram\Providers\TelegramServiceProvider` — boots this module's routes, migrations, and settings
+- `Zerp\Telegram\Providers\TelegramServiceProvider` - boots this module's routes, migrations, and settings
 - Frontend pages/components under `src/Resources/js`
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
